@@ -1,9 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
+#include "Func.h"
+
+#include <windows.h>
+
 
 int main() {
+
+    //Локалізація
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+  
+
     double x1, x2, delta, x, fx;
     unsigned int N;
     char group[50];
