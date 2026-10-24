@@ -16,6 +16,7 @@ int main() {
         return 1;
     }
 
+
     fscanf(fin, "%lf", &x1);
     fscanf(fin, "%lf", &x2);
     fscanf(fin, "%u", &N);
